@@ -5,8 +5,10 @@ b = 1
 c = 1
 i = 0
 e = int(sys.argv[1]) - 1
-print(a, end="")
-print(", ", end="")
+if e >= 0 :
+	print(a, end="")
+	print(", ", end="")
+
 while i < e :
 	print(str(b), end="")
 	print(", ", end="")
